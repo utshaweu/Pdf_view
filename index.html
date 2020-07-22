@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pdf View</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="pdf-view">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 m-auto">
+          <div class="top-bar">
+            <button class="btn" id="prev-page">
+              <i class="fas fa-arrow-circle-left"></i> Prev Page
+            </button>
+            <button class="btn" id="next-page">
+              Next Page <i class="fas fa-arrow-circle-right"></i>
+            </button>
+            <span class="page-info">
+              Page <span id="page-num" style="color: #05c46b;"></span> of <span id="page-count" style="color: #05c46b;"></span>
+            </span>
+          </div>
+          <canvas id="pdf-render"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

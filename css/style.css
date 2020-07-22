@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+img{
+  vertical-align: middle;
+  border: 0;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+#pdf-view{
+  background: #333333;
+  padding-bottom: 30px;
+}
+.top-bar{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#prev-page{
+  background: #05c46b;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 8px 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all linear .3s;
+}
+#prev-page:hover{
+  opacity: 0.9;
+}
+#next-page{
+  background: #05c46b;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 8px 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all linear .3s;
+}
+#next-page:hover{
+  opacity: 0.9;
+}
+.page-info{
+  color: #ffffff;
+  font-weight: 700;
+}
+.error{
+  background: orangered;
+  color: #ffffff;
+  padding: 1rem;
+}
